@@ -1,0 +1,5 @@
+ADDON_NAME = "3D Tudor Compositor"
+NODE_GROUP_FILE = "nodegroup.blend"
+NODE_GROUP_NAME = "3D Tudor Compositor"
+WORKSPACE_NAME = "3DT BlendCraft"
+CATEGORY = "3DT Compositor"

@@ -1,0 +1,138 @@
+{
+    "bg_type": "none",
+    "mist": {
+        "enable": 0,
+        "color": [1, 1, 1, 1],
+        "_ramp": {
+            "0.0": [0, 0, 0, 1],
+            "1.0": [1, 1, 1, 1]
+        }
+    },
+    "color": {
+        "factor": 1,
+        "depth": [
+            [0, 0], [1, 1]
+        ],
+        "hsv": [0.5, 1, 1]
+    },
+    "gloss": {
+        "level": [
+            [0, 0], [1, 1]
+        ],
+        "bright": 0,
+        "contrast": 0,
+        "metal_glint": 0
+    },
+    "trans": {
+        "depth": [
+            [0, 0], [1, 1]
+        ],
+        "lgg": [
+            [1, 1, 1],
+            [1, 1, 1],
+            [1, 1, 1]
+        ],
+        "light_level": 0
+    },
+    "volume": {
+        "enable": 1,
+        "depth": [
+            [0, 0], [1, 1]
+        ],
+        "density": 1,
+        "color": [1,1,1,1]
+    },
+    "light_bloom": {
+        "lvl": 0,
+        "type": "FOG_GLOW",
+        "lens_flare_strength": 0,
+        "lens_flare_threshold": 0,
+        "streaks": 0,
+        "increase_light_range": 0,
+        "bright": [
+            [0, 0], [1, 1]
+        ],
+        "color_change_enable": 0,
+        "color_change_col": [1, 1, 1, 1],
+        "render_output": 0
+    },
+    "environment": {
+        "factor": 0.1,
+        "bright": [
+            [0, 0], [1, 1]
+        ],
+        "lgg": [
+            [1, 1, 1],
+            [1, 1, 1],
+            [1, 1, 1]
+        ]
+    },
+    "ao": {
+        "enable": 0,
+        "_control": {
+            "0": [0, 0, 0, 1],
+            "1": [1, 1, 1, 1]
+        },
+        "color_enable": 0,
+        "color_col": [1, 1, 1, 1],
+        "master_control": [
+            [0, 0], [1, 1]
+        ]
+    },
+    "fx": {
+        "dia_sharpen": {
+            "enable": 0,
+            "factor": 0.3
+        },
+        "box_sharpen": {
+            "enable": 0,
+            "factor": 0.02
+        },
+        "soften": {
+            "enable": 0,
+            "factor": 0.1
+        },
+        "anti_aliasing": {
+            "enable": 0,
+            "threshold": 1,
+            "contrast_limit": 0.2,
+            "corner_rounding": 0.25
+        },
+        "color_balance": {
+            "enable": 0,
+            "lgg": [
+                [1, 1, 1],
+                [1, 1, 1],
+                [1, 1, 1]
+            ]
+        },
+        "rgb": {
+            "enable": 0,
+            "curve": [
+                [0, 0], [1, 1]
+            ]
+        },
+        "hue_correct": {
+            "enable": 0,
+            "hue": [
+                [[0.0, 0.5], [0.125, 0.5], [0.25, 0.5], [0.375, 0.5], [0.5, 0.5], [0.625, 0.5], [0.75, 0.5], [0.875, 0.5]],
+                [[0.0, 0.5], [0.125, 0.5], [0.25, 0.5], [0.375, 0.5], [0.5, 0.5], [0.625, 0.5], [0.75, 0.5], [0.875, 0.5]],
+                [[0.0, 0.5], [0.125, 0.5], [0.25, 0.5], [0.375, 0.5], [0.5, 0.5], [0.625, 0.5], [0.75, 0.5], [0.875, 0.5]]
+            ]
+        },
+        "bright": {
+            "enable": 0,
+            "bright": 0,
+            "contrast": 0.1
+        },
+        "hsv": {
+            "enable": 0,
+            "hsv": [0.5, 1, 1.2]
+        },
+        "denoise": {
+            "enable": 0,
+            "prefilter": "ACCURATE",
+            "use_hdr": 1
+        }
+    }
+}
